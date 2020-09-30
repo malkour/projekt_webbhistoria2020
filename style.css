@@ -1,21 +1,18 @@
-html
-{
-  height:95%;
-}
-
 body
 {
   padding:0px;
   margin:0px;
-  height:94%;
+  background-image:url(https://wallpapermemory.com/uploads/217/black-background-full-hd-1080p-54046.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 header
 {
   margin:0px;
   padding:0px;
-  height:17%;
-  background-color:#000000b8;
+  height:15%;
+  border-bottom:2px solid white;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
@@ -27,6 +24,8 @@ header h1
   font-style:italic;
   font-size:50px;
   color:white;
+  margin:10px 0px 10px 0px;
+  padding:0px;
 }
 
 header ul
@@ -53,18 +52,34 @@ header ul li a
 header ul li a:hover
 {
   text-decoration:underline;
+  color:#65ace0;
 }
 
-.cont
-{
-  height:95%;
-  background-image:url(https://c0.wallpaperflare.com/preview/95/156/837/abstract-art-atom-background.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-
-.cont aside
+aside
 {
   width:25%;
-  border:1px solid black;
+  border:1px solid white;
+  margin:7% 0px 0px 5%;
+}
+
+aside dt
+{
+  color:white;
+  font-size:30px;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+aside dl dd a
+{
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+  line-height:30px;
+}
+
+aside dl dd a:hover
+{
+  color:#65ace0;
+  text-decoration:underline;
 }
