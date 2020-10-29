@@ -1,0 +1,109 @@
+body
+{
+  padding:0px;
+  margin:0px;
+  background-image:url(https://wallpapermemory.com/uploads/217/black-background-full-hd-1080p-54046.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+header
+{
+  margin:0px;
+  padding:0px;
+  height:15%;
+  border-bottom:2px solid white;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header h1
+{
+  font-style:italic;
+  font-size:50px;
+  color:white;
+  margin:10px 0px 10px 0px;
+  padding:0px;
+}
+
+header ul
+{
+  padding:0px;
+  width:25%;
+}
+
+header ul li
+{
+  margin:auto;
+  display:inline;
+  margin-left:1%;
+  list-style-type:none;
+}
+
+header ul li a
+{
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+}
+
+header ul li a:hover
+{
+  text-decoration:underline;
+  color:#65ace0;
+}
+
+h1
+{
+  color:white;
+  text-align:center;
+}
+
+p
+{
+  color:white;
+  width:50%;
+  text-align:center;
+  margin:auto;
+  font-size:120%;
+}
+
+.all
+{
+  padding:0px;
+  width:80%;
+  height:200vh;
+  border:1px solid white;
+  margin:auto;
+  margin-top:4%;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+.all article
+{
+  width:30%;
+  margin:0px;
+  padding:0px;
+}
+
+.all article p
+{
+  width:100%;
+  margin:0px;
+}
+
+.all p span
+{
+  font-weight:bolder;
+  font-size:23px;
+  font-style:italic;
+}
+
+img
+{
+  width:30%;
+}
