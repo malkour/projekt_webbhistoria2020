@@ -1,6 +1,7 @@
 div
 {
-  width:100%;
-  color:black;
+  position: relative;
+  left:100px;
+  background-color:black;
   height:100px;
 }
