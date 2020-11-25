@@ -1,0 +1,4 @@
+Det som var bra med min sida är att jag har valt en special design for all sidora och det är "tidningar's design"
+efter som denna design passar de flesta artiklar jag skriv om.
+Det som kunnde och bli better var ju att i css kan man ändra lite med storlikhet tex från % till vh, men det gjorde jag inte eftersom (header)
+som jag har behöver lite JS för att funka tex på mobiler, och det därför gjorde jag inte det ävem om det borde göra sidan bettre.
